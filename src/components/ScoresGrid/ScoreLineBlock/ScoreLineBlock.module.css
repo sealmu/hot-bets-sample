@@ -1,0 +1,27 @@
+.wrapper {
+    margin-bottom: 10px;
+}
+
+.header {
+    height: 35px;
+    display: flex;
+}
+
+.headerTitleBlock {
+    display: flex;
+    align-items: center;
+    background: #016299;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+.headerName{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.headerIcon {
+    font-size: 22px;
+    padding-right: 10px;
+}

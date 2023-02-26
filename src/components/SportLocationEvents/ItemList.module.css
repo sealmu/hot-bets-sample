@@ -1,0 +1,42 @@
+@value top-events-background from '../configs/colors.css';
+
+
+.ItemList{
+    transition: all 2s linear;
+}
+
+
+.ItemList a{
+    color: #016299;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 30px;
+    transition:  opacity .3s;
+    white-space: nowrap;
+
+    display: block;
+    padding: 0 10px;
+}
+
+.ItemList a:hover{
+    opacity: .7;
+    transition: .3s;   
+}
+
+.ItemList a i{
+    color: #fec82f;
+}
+
+.ItemList a i,.ItemList a span{
+    padding-left: 10px;
+}
+.ItemList .hr{
+    width: 100%;
+    border: 0.5px solid #292929;
+    display: block;
+    margin: 0 auto;
+}
+
+.ItemList.closed{
+    display: none;    
+}

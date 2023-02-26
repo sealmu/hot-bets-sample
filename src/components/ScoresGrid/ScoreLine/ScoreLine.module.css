@@ -1,0 +1,13 @@
+.wrapper {
+    display: flex;
+    flex-flow: row;
+    flex-grow: 1;
+}
+
+.dataBlock {
+    flex-grow: 1;
+}
+
+.scoreBlock {
+
+}

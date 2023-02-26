@@ -1,0 +1,5 @@
+:root {
+    --top-events-background-var: #016299;
+  }
+
+  @value top-events-background: #016299;

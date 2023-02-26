@@ -1,0 +1,124 @@
+.ClaimBonus2{
+    background-color: transparent;
+}
+
+
+.ClaimBonus2 .title{    
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    background: linear-gradient(#ffe200,#ffb400);
+    border-color: #000;
+    color: #000;
+}
+
+.ClaimBonus2 .block{
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding: 2px;
+    border-radius: 2px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    background:  linear-gradient(#121212,#4d4d4d);
+}
+
+.ClaimBonus2 .col1{
+    background: linear-gradient(#ffe300,#ffb400);
+    flex-direction: row;
+    flex-basis: 25%;
+}
+.ClaimBonus2 .col1 .row1{
+    margin: 30px 10px 0px 10px;
+    display: flex;
+    justify-content: center;
+}
+.ClaimBonus2 .col1 .row1 .square{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+  
+}
+
+.ClaimBonus2 .col1 .row2{
+    justify-items: flex-start;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+.ClaimBonus2  .col1 .row2 .withcode{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 0px 10px;
+ 
+   
+}
+.ClaimBonus2  .col1 .row2 .withcode span:first-child{
+    color: #000;
+    font-size: 11px; 
+    font-weight: 700;
+}
+.ClaimBonus2 .col1 .row2 .withcode span:last-child{
+    font-size: 10px;
+    opacity: 0.6;
+    font-weight: 100;
+    line-height: 10px;
+}
+.ClaimBonus2  .col1 .row2 .nocode{
+    font-size: 10px;
+    padding: 5px;
+    display: flex;
+}
+.ClaimBonus2  .col1 .row2 .nocode span{
+    opacity: 0.6;
+    padding-top: 10px;
+}
+
+.ClaimBonus2 .col2{
+    flex-basis: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ClaimBonus2 .col2 .row1 {
+    padding: 10px;
+}
+
+.ClaimBonus2 .col2 .row1 .text{
+   
+    }
+
+.ClaimBonus2 .col2 .row1 .icon{
+
+}
+.ClaimBonus2 .col2  a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    
+}
+.ClaimBonus2 .col2 .row1 .img{
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: center;
+}
+
+.ClaimBonus2 .col2 .row2{
+    background: #4e4e4e;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.ClaimBonus2 .col2 .row2 .btn{
+    background: linear-gradient(#fd0000,#be0000);
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 11px;
+    font-weight: 600;
+}

@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.counter {
+    margin-left: auto;
+    font-size: 13px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+.counterNumber {
+    margin-right: 5px;
+}

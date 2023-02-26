@@ -1,0 +1,10 @@
+.wrapper{
+    display: flex;
+    flex-flow: row;
+}
+
+.teamsPart { 
+    flex-grow: 1;
+    color: #016299;
+    font-size: 14px;
+}

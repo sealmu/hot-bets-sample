@@ -1,0 +1,11 @@
+.RightBar{
+    background-color:transparent;
+    flex-basis: 20%;
+    grid-row: 1;
+    height: max-content;
+    margin-top: 10px;
+    margin-right: 25px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background:  transparent;
+}

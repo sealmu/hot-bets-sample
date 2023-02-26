@@ -1,0 +1,15 @@
+
+.sportPage{
+    display: flex;
+    /* flex-grow: 1; */
+    /* flex-direction: row; */
+    min-height: 50vh;
+    width: 100%;
+}
+
+.sportPage .main{
+    /*flex-basis: 65%;*/
+    flex-grow: 1;
+    background-color: #fff;
+    margin: 10px;
+}

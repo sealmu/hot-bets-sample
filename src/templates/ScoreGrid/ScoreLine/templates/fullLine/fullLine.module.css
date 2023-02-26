@@ -1,0 +1,10 @@
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-size: 20px;
+    background: white;
+    position: absolute;
+    color: black;
+    border-bottom: 1px solid #ddd;
+}

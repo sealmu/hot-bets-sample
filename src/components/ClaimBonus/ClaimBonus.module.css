@@ -1,0 +1,169 @@
+.ClaimBonus{
+    background-color: transparent;
+}
+.ClaimBonus .bblock{
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding: 2px;
+    border-radius: 2px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    background:  linear-gradient(#121212,#4d4d4d);
+}
+
+.ClaimBonus .title{    
+    border-radius: 2px;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    background: linear-gradient(#ffe200,#ffb400);
+    border-color: #000;
+    color: #000;
+}
+
+
+.ClaimBonus .btitle{
+    background-color: orange;
+    color:#fff;
+    font-size: 11px;
+    padding: 3px 5px;
+    font-weight: 700;
+    align-self: flex-start;
+}
+
+.ClaimBonus .bbody{
+    flex-direction: column;
+    display: flex;
+}
+.ClaimBonus .bwraper{
+    width: 98%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.ClaimBonus .brow1{
+    display: flex;
+    align-self: flex-start;
+    flex-direction: row;
+    color: #fff;
+    border-bottom: 0.5px solid #333;
+}
+.ClaimBonus .brow1 :nth-child(1){
+    background: linear-gradient(#ffe100,#ffb500);
+    color: #000;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+    font-family: serif;
+    width: 25px;
+}
+.ClaimBonus .brow1 span{
+    margin: 5px;
+}
+.ClaimBonus .brow2{  
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    background: #131313;
+    color: #fff;
+    align-items: center;
+}
+.ClaimBonus .brow2 .score{
+    background: linear-gradient(#ffe100,#ffb500);
+    color: #000;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: serif;
+    max-width: 40px;
+    min-width: 40px;
+    padding: 10px;
+    margin: 15px;
+}
+
+
+.ClaimBonus .bfooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;   
+}
+.ClaimBonus .bfooter :nth-child(1){
+    flex-basis: 50%;
+    background-color: #e9e9e9;
+    border: 1px solid #ddd;
+    text-align: center;  
+ 
+    align-items: flex-start;
+
+   
+}
+.ClaimBonus .bfooter .withcode{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    height: 42px;
+}
+.ClaimBonus .bfooter .withcode span:first-child{
+    color: #000;
+    font-size: 11px;
+    height: 11px;
+    font-weight: 700;
+}
+.ClaimBonus .bfooter .withcode span:last-child{
+    font-size: 10px;
+    opacity: 0.6;
+    font-weight: 100;
+}
+.ClaimBonus .bfooter .nocode{
+    font-size: 10px;
+    padding: 5px;
+    display: flex;
+}
+.ClaimBonus .bfooter .nocode span{
+    opacity: 0.6;
+}
+
+.ClaimBonus .bfooter .right{
+    cursor: pointer;
+    flex-basis: 50%;
+    background: linear-gradient(#ffe100,#ffb500);
+    height: 42px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.ClaimBonus .bfooter .right:hover{
+    opacity: 0.7;
+}
+.ClaimBonus .bfooter .right a{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+}
+.ClaimBonus .hr{
+    border: 0.5px solid #fff;
+    width: 98%;
+    align-self: center;
+}
+
+/*
+.ClaimBonus .xbet{
+    
+    background-size: 45px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-image: 
+    url('data:image/png;base64,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');
+}*/

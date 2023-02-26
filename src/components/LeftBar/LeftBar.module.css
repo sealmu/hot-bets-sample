@@ -1,0 +1,10 @@
+.LeftBar{
+    background-color: transparent;
+    flex-basis: 15%;
+    height: max-content;    
+    grid-row: 1;
+    margin-left: 25px;
+    border-radius: 4px;
+    background:  transparent;
+    flex-shrink: 0;
+}

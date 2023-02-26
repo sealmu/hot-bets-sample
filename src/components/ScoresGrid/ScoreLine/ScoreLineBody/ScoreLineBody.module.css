@@ -1,0 +1,17 @@
+.wrapper{
+    display: flex;
+    height: 60px;
+}
+
+.timeBlock {
+    display: flex;
+    align-items: center;
+    min-width: 80px;
+    justify-content: center;
+}
+
+.teamsBlock {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}

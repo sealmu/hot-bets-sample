@@ -1,0 +1,10 @@
+.Layout{
+    width: 100%; 
+    /*background: url('/images/bg/bg.jpg');*/
+}
+
+.Layout main{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+}

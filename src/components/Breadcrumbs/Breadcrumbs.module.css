@@ -1,0 +1,35 @@
+.Breadcrumbs{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: -20px 0 -5px;
+}
+.Breadcrumbs li{
+    list-style: none;
+}
+
+.Breadcrumbs li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.Breadcrumbs li a.active, .Breadcrumbs li a:hover{
+    color: #ffc500;
+}
+
+.Breadcrumbs li i{
+    font-size: 10px;
+    padding: 5px;
+    color: #fff;
+}
+
+
+.Breadcrumbs li .del{   
+    height: 17px;
+    transform: skew(-20deg);
+    color: #c69500;
+    font-weight: 700;
+    padding: 3px;
+}

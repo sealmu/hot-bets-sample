@@ -1,0 +1,11 @@
+.wrapper {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.iconWrapper {
+    padding-right: 10px;;
+}
